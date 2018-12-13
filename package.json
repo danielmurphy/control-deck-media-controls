@@ -1,0 +1,12 @@
+{
+  "name": "control-deck-media-controls",
+  "version": "1.0.0",
+  "description": "Control Deck plugin to manage media keys",
+  "main": "index.js",
+  "author": "Daniel Murphy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "robotjs": "^0.5.1"
+  }
+}
