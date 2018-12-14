@@ -3,21 +3,19 @@ const path = require('path');
 
 class ControlDeckMediaControls {
 	constructor(streamDeck, buttonId, options) {
-		console.log(options);
-
 		let key = '';
 		let icon = '';
 
 		switch (options.type) {
-		case 'play':
+		case 'play/pause':
 			key = 'audio_play';
 			icon = 'play.png';
 			break;
-		case 'volume_up':
+		case 'volume-up':
 			key = 'audio_vol_up';
 			icon = 'volume_up.png';
 			break;
-		case 'volume_down':
+		case 'volume-down':
 			key = 'audio_vol_down';
 			icon = 'volume_down.png';
 			break;
