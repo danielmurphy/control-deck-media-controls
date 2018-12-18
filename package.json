@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Control Deck plugin to manage media keys",
   "main": "index.js",
+  "repository": "https://github.com/danielmurphy/control-deck-media-controls",
   "author": "Daniel Murphy",
   "license": "MIT",
   "private": false,
